@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget31"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<Button
+android:id="@+id/submit_login"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="&#30331;&#24405;"
+android:layout_centerVertical="true"
+android:layout_alignParentLeft="true"
+>
+</Button>
+<TextView
+android:id="@+id/passWord"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="&#35831;&#36755;&#20837;&#24744;&#30340;&#23494;&#30721;"
+android:layout_below="@+id/userName_In"
+android:layout_alignParentLeft="true"
+>
+</TextView>
+<EditText
+android:id="@+id/userName_In"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="&#24744;&#30340;&#36134;&#25143;&#21495;"
+android:textSize="18sp"
+android:layout_below="@+id/userName"
+android:layout_alignParentLeft="true"
+>
+</EditText>
+<TextView
+android:id="@+id/userName"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="&#35831;&#36755;&#20837;&#24744;&#30340;&#24080;&#21495;"
+android:layout_alignParentTop="true"
+android:layout_alignParentLeft="true"
+>
+</TextView>
+
+<EditText
+    android:id="@+id/passWord_In"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/passWord"
+    android:ems="10"
+    android:password="true"
+    android:text="您的密码"
+    android:textSize="18sp" >
+
+    <requestFocus />
+</EditText>
+
+</RelativeLayout>

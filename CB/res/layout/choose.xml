@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget32"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+<RelativeLayout
+    android:id="@+id/widget31"
+    android:layout_width="231px"
+    android:layout_height="190px"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true" >
+
+    <Button
+        android:id="@+id/query_1"
+        android:layout_width="230px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="记 录 查 询"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/test_1"
+        android:layout_width="229px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="验    货"
+        android:textStyle="bold" />
+</RelativeLayout>
+
+</RelativeLayout>
